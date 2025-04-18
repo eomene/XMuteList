@@ -2,15 +2,19 @@
 
 A community-driven collection of word categories for muting on X (formerly Twitter). This repository contains JSON files with categorized words that users can use to filter out unwanted content from their X feed.
 
+> **Note**: This project is inspired by [mute.life](https://mute.life/) created by [levels.io](https://twitter.com/levelsio). We extend our gratitude to him for the original concept of crowd-sourced word muting.
+
 ## Categories
 
 The repository contains various categories of words that users might want to mute, including:
-- Hate speech
 - Politics
-- Sports
-- Entertainment
+- Social Issues
+- Social Media & Entertainment
 - Gaming
-- Technology
+- Cryptocurrency
+- Artificial Intelligence
+- Health & Pandemic
+- Conspiracy & Misinformation
 - And more...
 
 ## How to Use
@@ -18,6 +22,15 @@ The repository contains various categories of words that users might want to mut
 1. Download the JSON files from this repository
 2. Use X's mute word feature to add these words to your mute list
 3. Customize the lists according to your preferences
+
+### Muting Words on X
+
+1. Go to your X settings
+2. Navigate to "Privacy and safety" → "Muted words"
+3. Click "Add"
+4. Paste the words you want to mute
+5. Choose where to apply the mute (Home timeline, Notifications, etc.)
+6. Click "Save"
 
 ## Contributing
 
@@ -63,6 +76,10 @@ Each category is stored in a separate JSON file with the following structure:
   ]
 }
 ```
+
+## Inspiration
+
+This project was inspired by [mute.life](https://mute.life/), a crowd-sourced list of words to mute on social media created by [levels.io](https://twitter.com/levelsio). We aim to expand on this concept by providing categorized lists in JSON format for easier integration and customization.
 
 ## License
 
